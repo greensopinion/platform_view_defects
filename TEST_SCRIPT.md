@@ -1,6 +1,6 @@
 # Platform view defects: manual test script
 
-This throwaway app checks the platform-view defects listed in section 2 of `mapigrade/docs/platform-view-comparison.md`. It uses `flutter_map` with flutter_map_maplibre 0.0.5 and maplibre 0.3.6. `lib/mode_maplibre_layer.dart` is a copy of flutter_map_maplibre's `MapLibreLayer` that also passes the Android platform view options, because `MapLibreLayer` doesn't expose them.
+This demo app checks potential platform-view defects. It uses `flutter_map` with flutter_map_maplibre 0.0.5 and maplibre 0.3.6. `lib/mode_maplibre_layer.dart` is a copy of flutter_map_maplibre's `MapLibreLayer` that also passes the Android platform view options, because `MapLibreLayer` doesn't expose them.
 
 ## Setup
 
